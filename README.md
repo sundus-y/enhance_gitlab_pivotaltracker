@@ -7,10 +7,10 @@
 1) On GitLab open up the pull requests list page.
 2) For pull requests with a format of #story_number - Pull Request Ttile.
 3) The chrome extension automatically will pull the following details from PivotalTracker using #story_number.
-- Story Status.
-- Story Reviews.
-- Story Labels/Tags.
-- Direct link to PivotalTracker story.
+    - Story Status.
+    - Story Reviews.
+    - Story Labels/Tags.
+    - Direct link to PivotalTracker story.
 
 ### Feature 2: PivotalTracker - Adds members filtering function.
 1) Open a pivotaltracker project.
