@@ -1,7 +1,7 @@
 {
     "name": "Enhance GitLab/PivotalTracker",
     "short_name": "Enhance GitLab/PivotalTracker",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "manifest_version": 2,
     "description": "A Chrome extension to enhance GitLab and PivotalTracker functionalities.",
     "page_action": {
@@ -39,7 +39,5 @@
             "run_at": "document_start"
         }
     ],
-    "permissions": [
-        "activeTab"
-    ]
+    "permissions": ["https://www.pivotaltracker.com/*","https://git*"]
 }
