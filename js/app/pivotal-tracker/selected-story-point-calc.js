@@ -21,9 +21,14 @@ function setSelectedEventHandler() {
             var selected_stories = jQuery('a.selected').toArray();
             var total_size = 0;
             if (selected_stories.length > 0) {
+                var list_of_story = [];
                 selected_stories.forEach(function (selected_story) {
-                    var size = parseInt(jQuery(selected_story).siblings('span.meta').text());
-                    if (size > 0) total_size += size;
+                    var story_name = jQuery(selected_story).closest('div.story').find('span.tracker_markup').text();
+                    if(list_of_story.indexOf(story_name) === -1){
+                        var size = parseInt(jQuery(selected_story).siblings('span.meta').text());
+                        if (size > 0) total_size += size;
+                        list_of_story.push(story_name);
+                    }
                 });
             }
             jQuery('span.selectedStoriesPoint__value').text(total_size);
