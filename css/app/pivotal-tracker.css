@@ -1,0 +1,71 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #15384e;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 9px;
+    padding: 5px 6px;
+    z-index: 1;
+}
+.dropdown-item {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px;
+}
+.dropdown-item:hover {
+    background-color: #132034;
+}
+div.member-initials {
+    background-color: #a1a4ad;
+    float: left;
+    margin-right: 11px;
+    border-radius: 23px;
+    min-width: 35px;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.velocity-calc-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #15384e;
+    min-width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 9px;
+    padding: 5px 6px;
+    z-index: 1;
+}
+.dropdown:hover .velocity-calc-dropdown-content {
+    display: block;
+}
+.velocity-calc-table {
+    width: 100%;
+    background-color:#f2f3d1;
+    border-collapse:collapse;
+    color:#000;
+    font-size: 14px;
+}
+.velocity-calc-table th {
+    background-color:#daebce;
+}
+.velocity-calc-table td, .velocity-calc-table th {
+    padding:4px;
+    border:0;
+}
+.velocity-calc-table td {
+    border-bottom:1px dotted #daebce;
+}
+.velocity-calc-input {
+    font-size: 15px;
+    float: right
+}
+.velocity-reset-button {
+    float: right;
+    font-size: 14px;
+}

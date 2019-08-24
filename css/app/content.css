@@ -1,0 +1,65 @@
+span.in_review{
+    margin-left: 10px;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.84);
+    border-radius: 5px 5px 5px 4px;
+    background-color: aquamarine;
+    cursor: alias;
+}
+
+#diff_container{
+    width: 95%;
+    height: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    background: #000000;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 7px 13px 20px 0px rgba(0,0,0,0.84);
+    border-style: solid;
+    z-index: 201;
+}
+
+#overlay{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(25, 26, 36, 0.75);
+    z-index: 101 !important;
+}
+
+div.selectedStoriesPoint__container {
+    right: 1%;
+    left: 93%;
+    top: 13px;
+    position: absolute;
+    background-color: #4c76b8;
+    height: 34px;
+    padding-left: 10px;
+}
+
+span.selectedStoriesPoint__value {
+    padding: 0 5px;
+    border-radius: 2px;
+    background-color: #fb8d33;
+    color: #fff;
+    font-size: 20px;
+}
+
+span.selectedStoriesPoint__label {
+    padding: 8px;
+}
+
+span.pivotal_tacker_label {
+    background-color: #88779e;
+    color: #FFFFFF;
+}
+
+div.pivotal_tracker_container {
+    float: none !important;
+    display: inline-flex;
+}
