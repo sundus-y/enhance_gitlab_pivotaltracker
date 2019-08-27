@@ -2,7 +2,7 @@
     position: relative;
     display: inline-block;
 }
-.dropdown-content {
+.ris-pv-dropdown-content {
     display: none;
     position: absolute;
     background-color: #15384e;
@@ -28,7 +28,7 @@ div.member-initials {
     min-width: 35px;
     text-align: center;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .ris-pv-dropdown-content {
     display: block;
 }
 .velocity-calc-dropdown-content {
